@@ -1,7 +1,7 @@
 #!/bin/bash
 echo $SHELL
 if [ $# -eq 0 ]; then
-echo "provide file name while runung the script"
+echo "provide file name while running the script"
 exit 1
 fi
 filename=$1
